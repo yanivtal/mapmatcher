@@ -1,0 +1,12 @@
+[ng-cloak] {
+  display: none !important;
+}
+
+.logo span {
+  font-weight: 600;
+}
+#map-canvas {
+  height: 500px;
+  margin: 0;
+  padding: 0;
+}

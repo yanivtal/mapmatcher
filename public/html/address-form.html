@@ -1,0 +1,26 @@
+<div class="panel panel-default">
+  <div class="panel-body">
+    <form>
+      <div class='row'>
+        <div class='col-md-6'>
+          <div class='form-group'>
+            <label for='title-input'>Start Address</label>
+            <input class='form-control' id='title-input' ng-model='start'></input>
+          </div>
+        </div>
+        <div class='col-md-6'>
+          <div class='form-group'>
+            <label for='title-input'>Destination Address</label>
+            <input class='form-control' id='title-input' ng-model='destination'></input>
+          </div>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-md-12'>
+          <button class='btn btn-default' ng-click='start = ""; destination = ""'>Clear</button>
+          <button class='btn btn-primary' ng-click='route(start, destination)'>Route</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
